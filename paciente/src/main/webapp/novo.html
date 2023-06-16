@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Agenda de pacientes</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar novo paciente</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="idade" placeholder="Idade" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="peso" placeholder="Peso" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="altura" placeholder="Altura" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
